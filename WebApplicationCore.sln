@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationCore", "WebApplicationCore.csproj", "{1A768199-7ED9-4501-9DA4-C2A44E58F542}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{A1A4F779-381E-40C6-9147-E51FDB2F945B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{5CE82606-E11D-4900-8657-8D32F9A820AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{EA673191-C955-4F78-AC62-DEA24EF3D980}"
+	ProjectSection(SolutionItems) = preProject
+		CoursesController.cs = CoursesController.cs
+		HomeController.cs = HomeController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D47AF7A0-4719-404C-8A18-8D8513569533}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A768199-7ED9-4501-9DA4-C2A44E58F542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A768199-7ED9-4501-9DA4-C2A44E58F542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A768199-7ED9-4501-9DA4-C2A44E58F542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A768199-7ED9-4501-9DA4-C2A44E58F542}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC8B8FAA-F37C-4F58-AA83-C5A876710FC7}
+	EndGlobalSection
+EndGlobal
